@@ -195,7 +195,7 @@ impl SharedKlassRepo {
 //        public static final native java.lang.Object command(java.lang.Object);
         self.install_native_method(&"java/lang/Compiler".to_string(), &"enable:()V".to_string(), crate::native_methods::java_lang_Compiler__enable);
         self.install_native_method(&"java/lang/Compiler".to_string(), &"disable:()V".to_string(), crate::native_methods::java_lang_Compiler__disable);
-        
+
         self.install_native_method(&"java/lang/Runtime".to_string(), &"freeMemory:()J".to_string(), crate::native_methods::java_lang_Runtime__freeMemory);
         self.install_native_method(&"java/lang/Runtime".to_string(), &"totalMemory:()J".to_string(), crate::native_methods::java_lang_Runtime__totalMemory);
         self.install_native_method(&"java/lang/Runtime".to_string(), &"gc:()V".to_string(), crate::native_methods::java_lang_Runtime__gc);
