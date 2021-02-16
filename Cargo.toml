@@ -9,6 +9,7 @@ assert_float_eq = "1"
 byteorder = "1.2.7"
 lazy_static = "1.2.0"
 structopt = { version = "0.3" }
+walkdir = "2"
 zip = "0.5.3"
 ocelotter_runtime = {path = "runtime"}
 ocelotter_util = {path = "util"}
